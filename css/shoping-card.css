@@ -1,0 +1,261 @@
+img{
+    max-width: 100%;
+}
+.logo-area img{
+    max-width: 100%;
+    width: 180px;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.navbar-nav{
+    color: darkgreen;
+    font-size: 18px;
+    font-weight: 700;
+}
+.shop-icon button{
+    font-size: 25px;
+    color:  darkgreen;
+}
+.user-icon button{
+    font-size: 25px;
+    color:  darkgreen;      
+}
+.search-icon button{
+     font-size: 25px;
+    color:  darkgreen;   
+}
+.modal-footer button{
+    font-size: 13px;
+}
+.modal-shoping-icon-content{
+    text-align: center;
+}
+.background-img-area{
+    background-image: linear-gradient(217deg, rgba(61, 145, 108, 0.8), rgba(54, 116, 50, 0) 70.71%),
+    linear-gradient(127deg, rgba(69, 165, 69, 0.479), rgba(64, 146, 64, 0.404) 70.71%),
+    linear-gradient(336deg, rgba(53, 146, 92, 0.438), rgba(52, 116, 60, 0.37) 70.71%), url(/img/hero-bg.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.shoping-header ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+.shoping-header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.shoping-header{
+    padding-top: 100px;
+}
+.shoping-home{
+    color: black;
+}
+.shoping-header h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.modal-shoping-icon-content button{
+    width: 50%;
+}
+
+.product-tax-text a{
+   color: black;
+}
+.product-tax-text button{
+    font-size: 18px;
+    color: black;
+}
+
+input.quantity-field {
+    width: 20%;
+    text-align: center;
+}
+.input.quantity-field{
+    width: 20%;
+    text-align: center;   
+}
+.input-group{
+    justify-content: center;
+    margin-top: 25px;
+}
+input.button-minus {
+    min-width: 35px;
+    border: none;
+}
+input.button-plus {
+    min-width: 35px;
+    border: none;
+}
+input.quantity-field {
+    border: none;
+    height: 38px;
+    width: 62px;
+}
+
+/* ///modal//// */
+
+.paypal-button strong{
+    color: rgb(84, 68, 224);
+}
+i.fas.fa-trash {
+    color: red;
+}
+
+/* /////product-detials////// */
+/* .product-img {
+    border: 1px solid rgb(245, 238, 238);
+} */
+
+
+.product-detials{
+    margin-top: 100px;
+    margin-bottom: 100px;
+} 
+.product-content h3{
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.product-content{
+    margin-left: 45px;
+}
+div#pills-home {
+    border: 1px solid rgb(247, 223, 223);
+}
+div#pills-profile {
+    border: 1px solid rgb(247, 223, 223);
+}
+ul#pills-tab {
+    margin-top: 18px;
+}
+li.nav-item {
+    border: 1px solid rgb(235, 225, 206);
+}
+ul#pills-tab {
+    gap: 10px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-color: none;
+}
+
+/* .product-content p strong{
+    font-size: 13px;
+}
+.elevatezoom-gallery{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+.elevatezoom-img img{
+    width: 110px;
+}
+
+.elevatezoom-img{
+    border: 1px solid rgb(226, 223, 223);
+} */
+
+.nav-item button{
+    width: 150px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+
+}
+
+
+
+.nav-text i{
+    font-size: 20px;
+    color: #fff;
+    background-color: dodgerblue;
+    padding: 22px 18px;
+    margin-left: -11px;
+    border-radius: 5px;
+}
+.margin-area {
+    margin-left: 40px;
+}
+.nav-text a{
+    text-decoration: none;
+    color: black;
+}
+.input-container {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+.form-control:focus{
+    box-shadow: none    ;
+}
+.email-field {
+    padding: 10px;
+    background-color: #FAF9F6;
+    height: 48px;
+}
+.input-container button {
+    background: dodgerblue;
+    color: #fff;
+    min-width: 81px;
+}
+.shop-modules h2 a{
+    text-decoration: none;
+    color: black;
+}
+.shop-modules h2 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.product-tax-text{
+    display: flex;
+    align-items: center;
+}
+.product-tax-text button{
+    text-decoration: underline;
+}
+.item-price span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.modal-footer button{
+    text-decoration: none;
+}
+
+@media screen and (max-width:991px) {
+    .shoping-header ul{
+        gap: 5px;
+        font-size: 15px;
+    }    
+    .product-content {
+        margin-left: 0px;
+    }
+    .product-content h3 {
+        font-size: 25px;
+        line-height: 100%;
+    }
+    .margin-area {
+        margin-left: 0px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .shoping-header ul{
+        gap: 0px;
+        font-size: 15px;
+    }
+}
+
+

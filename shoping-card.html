@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product-detials</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="webfonts">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/shoping-card.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <div class="logo-area">
+                  <img src="img/logo-ynera-freude-im-garten-erleben.png" alt="">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item-1">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item-1">
+                <a class="nav-link" href="#">SHOP</a>
+              </li>
+              <li class="nav-item-1">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+              <li class="nav-item-1">
+                <a class="nav-link" href="#">ÜBER UNS</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navber-icon d-flex">
+            <div class="shop-icon">
+                <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#cartModal">
+                        <i class="fas fa-shopping-bag"></i>
+                   </button>
+                <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                     <div class="modal-body">
+                        <div id="checkout-product">
+                            <div class="module-shop">  
+                                <div class="product-modal">
+                                    <table class="table table-bordered">
+                                       
+                                        <thead>
+                                            <tr>
+                                                <th>Bild</th>
+                                                <th>Produktname</th>
+                                                <th>Menge</th>
+                                                <th>Preis</th>
+                                                <th>Gesamt</th>
+                                                <th>Löschen</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="cart-item  table-secondary">
+                                                <td>
+                                                    <img height="70"  width="70" src="img/jumpking_.webp" alt="">
+                                                </td>
+                                                <td>
+                                                    <div class="mt-4">
+                                                      trampolin InGround Deluxe 305 cm schwarzgrün      
+                                                    </div>                                                  
+                                                </td>
+                                                <td  class="text-center">
+                                                  <div class="input-group">
+                                                  <input class="button-minus" type="button" name="" value="-"  id="">
+                                                  <input class="quantity-field" type="text  " value="1"  name="" id="">
+                                                  <input class="button-plus" type="button" value="+"  name="" id="">
+                                                  </div>
+                                                </td>
+                                                <td class="table-price">
+                                                    <div class="mt-4">
+                                                    919,50 €
+                                                    </div>
+                                                </td>
+                                                <td class="table-price">
+                                                  <div class="mt-4">
+                                                    1 839,00 €
+                                                  </div>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="mt-4">
+                                                        <a href="#">
+                                                        <i class="fas fa-trash"></i>
+                                                    </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+
+                                            <tr class="cart-item">
+                                                <td>
+                                                    <img height="70" width="70"src="img/jumpking_3.jpg" alt="">
+                                                </td>
+                                                <td>
+                                                    <div class="mt-4">
+                                                        trampolin Deluxe 370 x 240 cm Stahl/Netz grün    
+                                                    </div>                                     
+                                                </td>
+                                                <td  class="text-center">
+                                                  <div class="input-group">
+                                                  <input class="button-minus" type="button" name="" value="-"  id="">
+                                                  <input class="quantity-field" type="text" value="1"  name="" id="">
+                                                  <input class="button-plus" type="button" value="+"  name="" id="">
+                                                  </div>
+                                                </td>
+
+                                                <td class="table-price">
+                                                    <div class="mt-4">
+                                                    919,50 €
+                                                    </div>
+                                                </td>
+                                                <td class="table-price">
+                                                    <div class="mt-4">
+                                                    1 839,00 €
+                                                    </div>
+                                                </td>
+                                                <td  class="text-center">
+                                                    <div class="mt-4">
+                                                        <a href="#">
+                                                        <i class="fas fa-trash"></i>
+                                                    </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="products-amount">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <p><strong>Gesamtbetrag:   3 109,51 €</strong></p>
+                                            <!-- <div class="product-tax-text">
+                                                <span>inkl. 19% MwSt. </span><a href="#"> zzgl. Versand</a> 
+                                            </div> -->
+                                            <div class="product-tax-text">
+                                              <span class="edit">inkl. 19% MwSt.</span>
+                                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#termModal">
+                                                 zzgl. Versand
+                                                </button>
+                      
+                                                <div class="modal  fade" id="termModal" tabindex="-2" aria-labelledby="termModalLabel" aria-hidden="true">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                      <div class="modal-body">
+                                                        Wir versenden versandkostenfrei innerhalb von Deutschland, ausgenommen sind hiervon die deutschen Inseln.
+                      
+                                                        Hier berechnen wir pauschal 12,00 EUR pro Bestellung.
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary ">Schließen</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="col-sm-6  text-end paypal-button">
+                                            <a href="#" class="btn btn-success">zur Kasse</a>
+                                            <a href="#"  class="btn btn-warning"> <strong>PayPal</strong>  Checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                      
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary text-white">Schließen</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+             </div>
+            <div class="user-icon">
+              <button class="btn btn">
+                <i class="fas fa-user"></i>            
+              </button>
+            </div>
+              <div class="search-icon">
+                <button class="btn btn">
+                <i class="fas fa-search"></i>            
+                </button>
+              </div>
+    
+          </div>
+        </div>
+      </nav>
+    
+      <div class="background-img-area">
+        <div class="container">
+          <div class="shoping-header">
+                <ul>
+                  <li><a href="#"  class="text-dark">HOME</a></li>
+                  /
+                  <li><a href="#"  class="text-dark">SHOP</a></li>
+                  /
+                  <li><a href="#"  class="text-dark">Trampolin &  Bewegung</a></li>
+                  /
+                  <li><a href="#">trampolin mit Sicherheitsnetz oval 396 cm schwarz</a></li>
+                </ul>
+    
+              </div>
+        </div>
+      </div>
+
+
+
+      <section class="product-detials">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 ">
+                    <!-- <div class="product-img">
+                        <img src="img/jumpking_1.jpg" alt="">
+                    </div>
+                    <div class="elevatezoom-gallery">
+                      <div class="elevatezoom-img"> 
+                        <img src="img/jumpking_1.jpg" alt="">
+                      </div>
+                    <div class="elevatezoom-img">
+                      <img src="img/jumpking_8.jpg" alt="">
+                    </div>
+                    </div> -->
+
+
+
+                    <div class="tab-content" id="pills-tabContent">
+                      <div class="tab-pane fade show active p-3" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><img class="100%"  src="img/jumpking_trampoline.webp" alt=""></div>
+                      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><img class="100%"  src="img/jumpking_1.jpg" alt=""></div>
+                    </div>
+                    <ul class="nav nav-pills mb-3     justify-content-center" id="pills-tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link  bg-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><img src="img/jumpking_trampoline.webp" alt=""></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link bg-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><img src="img/jumpking_1.jpg" alt=""></button>
+                      </li>
+                    </ul>
+
+
+
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="product-content">
+                        <h3>trampolin mit Sicherheitsnetz oval 396 cm schwarz</h3>
+                        <p>
+                            <strong>Kategorie:</strong>
+                            Trampolin & Bewegung , Fitness
+                        </p>
+                        <p>
+                            <strong>SKU Number:</strong>
+                            Artikelnummer: #0
+                        </p>
+                        <p>
+                            <strong>Verfügbarkeit:</strong>
+                            Ausverkauft
+                            <br>
+                                Jumpking Trampolin mit Sicherheitsnetz Das Jumpking Trampolin mit Sicherheitsnetz ist ein ovales Trampolin. Ideal für Kinder, aber auch ein Riesenspaß für Erwachsene.
+                        </p>
+                      </div>
+                <div class="email_notification">
+                  <div class="row m-0">
+                    <div class="col-md-12 margin-area">
+                      <div class="navbar navbar-light bg-light pt-0 pb-0">
+                        <div class="nav-text">
+                          <i class="fas fa-exclamation-triangle"></i>
+                          <a href="">Benachrichtigen Sie mich, sobald der Artikel lieferbar ist.</a>
+                        </div>
+                      </div>
+                      <div class="input-container">
+                      <input class="email-field form-control" type="email" name="email" placeholder="Ihre E-Mail-Address">
+                      <button class="btn text-white" type="button">
+                        <i class="far fa-envelope"></i>
+                      </button>
+                      </div>
+                      <div class="shop-modules">
+                        <h2>ich habe die
+                         <a href="#">Datenschutzbestimmungen</a> zur Kenntnis genommen
+                        </h2>
+                      </div>
+                      
+                      <div class="inner-price-item">
+                        <div class="item-price">
+                          <span>Preis: </span>
+                          <span class="mw-price-item-value">629,39 €</span>
+
+                        </div>
+                      </div>
+                      <div class="product-tax-text">
+                        <span class="edit">inkl. 19% MwSt.</span>
+                          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
+                           zzgl. Versand
+                          </button>
+
+                          <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel-2" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Wir versenden versandkostenfrei innerhalb von Deutschland, ausgenommen sind hiervon die deutschen Inseln.
+
+                                  Hier berechnen wir pauschal 12,00 EUR pro Bestellung.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary ">Schließen</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="item-cart">
+                        <div class="item-cart-button">
+                          <button class="btn btn-secondary text-dark" disabled><i class="fas fa-shopping-cart"></i> Ausverkauft</button>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div> 
+           </div>
+         </div>
+      </section>
+  
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
